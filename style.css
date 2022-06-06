@@ -1,0 +1,358 @@
+body {
+    background-color: #F1EEE7;
+    caret-color: rgba(0,0,0,0); 
+}
+
+.menubuttons {
+    display: flex;
+    font-family: 'SpaceMono-Regular';
+    font-size: 25px;
+    color:#4F262B;  
+    justify-content: space-around;
+    gap: 30px;
+}
+
+a, a:focus, a:active {
+    text-decoration: none;
+    color: #4F262B;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.line {
+    display: flex;
+    align-content: flex-start;
+}
+
+.homecontents {
+    font-family: 'Space Mono-Bold';
+    font-size: 30px;
+    color:#4F262B;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.aboutme{
+    display: flex;
+    font-family: 'SpaceMono-Regular';
+    font-size: 25px;
+    color: #835D55; 
+    align-items: flex-start;
+    text-align: center;
+    display: inline;
+}
+
+.line2 {
+    display: flex;
+    align-content: flex-start;
+    display: inline;
+}
+
+.aboutcontents {
+    display: flex;
+    font-family: 'ClearSans-Regular';
+    font-size: 16px;
+    color:#4F262B;  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.button {
+    display: flex;
+    align-items: flex-start;
+    align-content: right;
+    align-content: space-around;
+    position: relative;
+    right: -1130px;
+    top: -1070px;
+
+}
+
+.portfolio {
+    display: flex;
+    font-family: 'SpaceMono-Regular';
+    font-size: 25px;
+    color: #835D55; 
+    align-items: flex-start;
+    text-align: center;
+    display: inline;
+}
+
+.line3 {
+    display: flex;
+    align-content: flex-start;
+    display: inline;
+}
+
+.text {
+    display: flex;
+    font-family: 'ClearSans-Regular';
+    font-size: 20px;
+    color:#4F262B;
+    justify-content: center;
+
+}
+
+.portfoliocontents {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+}
+
+.button2 {
+    display: flex;
+    align-items: flex-start;
+    align-content: left;
+    position: relative;
+    left: 30px;
+    top: -1280px;
+    display: inline;
+   
+}
+
+.contactme {
+    display: flex;
+    font-family: 'SpaceMono-Regular';
+    font-size: 25px;
+    color: #835D55; 
+    align-items: flex-start;
+    text-align: center;
+    display: inline;
+}
+
+.line4 {
+    display: flex;
+    align-content: flex-start;
+    display: inline;
+}
+
+.service {
+    display: flex;
+    font-family: 'SpaceMono-Regular';
+    font-size: 25px;
+    color: #835D55; 
+    align-items: flex-start;
+    text-align: center;
+    display: inline;
+}
+
+.line5 {
+    display: flex;
+    align-content: flex-start;
+    display: inline;
+}
+
+.text1 {
+    display: flex;
+    font-family: 'ClearSans-Regular';
+    font-size: 26px;
+    color:#4F262B;
+    justify-content: left;
+    position: relative;
+    left: 100px;
+    display: inline;
+}
+
+.classTest{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 20px;
+    color: #F1EEE7;
+    justify-content: center;
+
+}
+
+.box {
+
+    background-color: #835D55;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+
+.classTest1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 30px;
+    color: #F1EEE7;
+    justify-content: center;
+
+}
+
+.box {
+
+    background-color: #835D55;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.servicepic {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    align-items: flex-start;
+    align-content: center;
+    align-self: center;
+    position: absolute;
+    top: 30px;
+    right: 80px;
+
+}
+
+.button3 {
+    display: flex;
+    align-items: flex-start;
+    align-content: left;
+    position: relative;
+    left: -50px;
+    top: -800px;
+    display: inline;
+    
+}
+
+.text3 {
+    display: flex;
+    font-family: 'ClearSans-Regular';
+    font-size: 26px;
+    color:#4F262B;
+    justify-content: center;
+    position: relative;
+}
+
+.contactcontents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    align-content: space-around;
+    row-gap: 50px;
+    position: absolute;
+    left: 510px;
+
+}
+
+.contactpic1 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+
+}
+
+.contactpic2 {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    align-items: flex-start;
+    align-content: center;
+    align-self: center;
+    position: absolute;
+    top: 145px;
+    right: 80px;
+    
+}
+
+.text4 {
+    display: flex;
+    font-family: 'ClearSans-Regular';
+    caret-color: rgba(0,0,0,0);
+    font-size: 20px;
+    color:#4F262B;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 150px;
+}
+
+.button4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    position: relative;
+    bottom: 540px;
+}
+
+.design1 {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    position: relative;
+    right: -20px;
+    bottom: 300px;
+    align-items: flex-end;
+    overflow-y: hidden;
+
+}
+
+.design2 {
+    display: flex;
+    align-items: flex-start;
+    align-content: left;
+    position: relative;
+    left: 50px;
+    top: -890px;
+}
+
+.design3 {
+    display: flex;
+    align-items: flex-end;
+    align-content: left;
+    position: relative;
+    left: -100px; 
+    bottom: 40px;  
+
+}
+
+.design4 {
+    display: flex;
+    align-items: flex-start;
+    align-content: left;
+    position: relative;
+    left: 900px;
+    top: -850px;
+}
+
+.design5 {
+    display: flex;
+    align-items: flex-start;
+    align-content: right;
+    position: relative;
+    right: -900px;
+    top: -1160px;
+}
+
+.design6 {
+    display: flex;
+    align-items: flex-start;
+    align-content: left;
+    position: relative;
+    left: 50px;
+    bottom: 510px;
+}
+
+.design7 {
+    display: flex;
+    align-items: flex-start;
+    align-content: left;
+    position: relative;
+    right: -950px;
+    bottom: 860px;
+}
